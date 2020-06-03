@@ -1,0 +1,8 @@
+builders:
+  icomoon_selection_gen:
+    import: 'package:icomoon_selection_gen/builder.dart'
+    builder_factories: ['genFromJson']
+    build_extensions: {".json": [".dart"]}
+    auto_apply: root_package
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
