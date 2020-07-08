@@ -1,6 +1,6 @@
 name: icomoon_selection_gen
 description: A code generator for flutter that reads icomoon selection.json and generate the icon classes
-version: 0.0.1
+version: 0.0.2
 author: Gabriel Rohden
 homepage:
 
@@ -8,14 +8,14 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  meta: ^1.1.7
   build: ^1.1.4
   build_config: ^0.4.0
-  recase: ^2.0.1
-  code_builder: ^3.3.0
-  dart_style: ^1.0.0
 
 dev_dependencies:
+  meta: ^1.1.7
+  recase: ^3.0.0
+  dart_style: ^1.0.0
+  code_builder: ^3.3.0
   build_runner: ^1.5.0
   build_test: ^0.10.7+3
 
